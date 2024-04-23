@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản lý cửa hàng"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#039BE5"/>
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:drawableStart="@drawable/search"
+        android:background="@drawable/edt_search"
+        android:paddingVertical="10dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="#5E5E5E"
+        android:hint="Search"
+        android:imeOptions="actionSearch"
+        android:textSize="16sp"
+        android:textColorHint="#C1C1C1"
+        android:layout_marginHorizontal="20dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rccThi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm mới"
+        android:backgroundTint="#039BE5"
+        android:id="@+id/btnAdd"
+        android:layout_margin="20dp"
+        android:layout_gravity="end"/>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screen.LoginPhone">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:text="Your phone number"
+        android:textSize="16dp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10sp"
+        android:background="@drawable/input"
+        android:hint="Phone number"
+        android:paddingLeft="10sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:text="OTP"
+        android:textSize="16dp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/edtOTP"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10sp"
+        android:background="@drawable/input"
+        android:hint="OTP"
+        android:paddingLeft="10sp" />
+
+    <Button
+        android:id="@+id/btnLogPhone"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="39sp"
+        android:background="#FB8C00"
+        android:text="LOGIN" />
+    <Button
+        android:id="@+id/btngetOTP"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="39sp"
+        android:background="#FB8C00"
+        android:text="GET OTP" />
+</LinearLayout>

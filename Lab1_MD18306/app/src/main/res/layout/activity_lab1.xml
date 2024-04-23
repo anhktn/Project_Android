@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab1"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/logo_firebase"
+        android:layout_marginBottom="50dp"/>
+    <Button
+        android:drawableStart="@drawable/mail"
+        android:id="@+id/btnLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with Email"
+        android:width="270dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#337357"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+
+        />
+    <Button
+        android:drawableStart="@drawable/telephone"
+        android:id="@+id/btnLoginPhonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with Phone number"
+        android:width="270dp"
+        android:backgroundTint="#40679E"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"/>
+
+</LinearLayout>

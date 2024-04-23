@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screen.Register">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_margin="10sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:backgroundTint="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20dp"
+            android:layout_margin="7sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edtEmaildk"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="Email"
+            android:background="@drawable/input"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginBottom="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp"
+            android:layout_margin="7sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edtPassdk"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/input"
+            android:padding="10dp"
+            android:hint="Password"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:background="#FFB300"
+            android:text="SIGN UP" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
